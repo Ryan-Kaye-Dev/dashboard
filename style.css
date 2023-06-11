@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@700&family=Orbitron&family=Roboto:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 1fr;
+}
+
+.logo {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    margin: 10px 20px 50px 5px;
+    color: white;
+}
+.logo-img {
+ width: 65px;
+}
+
+ul, li {
+    display: flex;
+    gap: 15px;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    color: white;
+}
+
+.sidebar {
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+    background-color: blueviolet;
+}
+
+.nav-list {
+    font-family: 'Roboto', sans-serif;
+    display: grid;
+    gap: 15px;
+    margin-left: 25px;
+}
+
+.nav-list img {
+    width: 20px;
+    filter: invert(1);
+}
+
+.top-bar {
+    margin: 10px;
+    margin-right: 50px;
+    gap: 20px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-bar input {
+    flex: 1 1 0;
+    margin-right: 100px
+}
+
+.top-bar .search, .top-bar .alert {
+    max-width: 20px;
+}
+
+.top-bar .profile-img {
+    height: auto;
+    max-width: 40px;
+    flex-grow: 1;
+    border-radius: 50%;
+}
+
+.bottom-bar {
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-rows: 1fr 2fr;
+    padding-bottom: 10px;
+    box-shadow: 0 4px 2px -2px gray;
+}
+
+.large-profile-img {
+    align-self: center;
+    justify-self: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    grid-row: 1 / 3;
+    border-radius: 50%;
+    max-width: 60px;
+}
+
+.welcome {
+    grid-column: 2 / 3;
+    font-family: 'Roboto', sans-serif;
+    font-size: .8rem;
+}
+
+.username {
+    grid-column: 2 / 3;
+    font-family: 'Roboto', sans-serif;
+}
+
+.button-bar {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    padding-right: 50px;
+}
+
+button {
+    background-color: blueviolet;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 10%;
+    color: white;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+}
