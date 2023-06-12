@@ -17,6 +17,10 @@ html, body {
     grid-template-rows: 1fr;
 }
 
+.header {
+    background-color: #f3e8ff;
+}
+
 .logo {
     font-family: 'Roboto', sans-serif;
     display: flex;
@@ -75,7 +79,7 @@ ul, li {
 }
 
 input {
-    background-color: #f1e1fd;
+    background-color: white;
     border: none;
     border-radius: 5px;
     padding: 5px;
@@ -96,8 +100,9 @@ input {
     display: grid;
     grid-template-columns: 1fr 5fr 1fr;
     grid-template-rows: 1fr 2fr;
+    padding-top: 10px;
     padding-bottom: 10px;
-    box-shadow: 0 3px 4px -2px black;
+    box-shadow: 0 0px 4px -2px grey;
 }
 
 .large-profile-img {
@@ -142,6 +147,7 @@ button {
 }
 
 .content {
+    box-shadow: inset 0 0 5px 1px grey;
     background-color: #e9d5ff;
     padding: 10px;
     display: grid;
@@ -173,6 +179,7 @@ padding: 20px;
 
 .card {
     border-left:solid 5px blueviolet;
+    box-shadow: 2px 2px 5px 1px gray;
 }
 
 .icon-bar {
