@@ -5,6 +5,12 @@
     padding: 0;
 }
 
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
 #container {
     display: grid;
     grid-template-columns: 1fr 5fr;
