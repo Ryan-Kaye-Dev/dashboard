@@ -171,6 +171,7 @@ padding: 20px;
 
 .icon-bar {
     display: flex;
+    flex: 0;
     flex-direction: row;
     justify-content: flex-end;
     gap: 15px;
