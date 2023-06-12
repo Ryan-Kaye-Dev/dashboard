@@ -213,7 +213,7 @@ padding: 20px;
 }
 
 .announcement-box p {
-font-family: Arial, Helvetica, sans-serif;
+font-family: 'Montserrat', sans-serif;
 font-size: 0.85rem;
 padding-top: 10px;
 }
@@ -282,6 +282,6 @@ padding-top: 10px;
 .user-info {
     padding: 5px;
     font-size: 12px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     align-self: start;
 }
