@@ -179,6 +179,7 @@ padding: 20px;
 .icon-bar img {
     padding-bottom: 30px;
     max-width: 25px;
+    max-height: auto;
 }
 
 .right {
